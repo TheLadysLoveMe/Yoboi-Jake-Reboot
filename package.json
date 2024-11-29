@@ -1,13 +1,23 @@
 {
-  "devDependencies": {
-    "@wix/cli": "^1.0.0",
-    "@wix/eslint-plugin-cli": "^1.0.0",
-    "eslint": "^8.25.0",
-    "react": "16.14.0"
+  "name": "YoboiJake",
+  "version": "4.0.0",
+  "description": "More than just a game site",
+  "type": "module",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
   },
   "scripts": {
-    "postinstall": "wix sync-types",
-    "dev": "wix dev",
-    "lint": "eslint ."
+    "start": "node index.js"
+  },
+  "author": "",
+  "dependencies": {
+    "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
+    "@tomphttp/bare-server-node": "^2.0.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.4"
   }
 }
